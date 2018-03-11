@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="577.0" prefWidth="772.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.NewStudentController">
+   <children>
+      <Text layoutX="312.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Podaci o studentu:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <GridPane layoutX="143.0" layoutY="43.0" prefHeight="479.0" prefWidth="486.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="365.0" minWidth="10.0" prefWidth="230.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="627.0" minWidth="10.0" prefWidth="467.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Ime:" />
+            <Label text="Prezime:" GridPane.rowIndex="1" />
+            <Label text="JMBG:" GridPane.rowIndex="2" />
+            <Label text="Korisničko ime:" GridPane.rowIndex="3" />
+            <Label text="Lozinka:" GridPane.rowIndex="4" />
+            <Label text="Smjer:" GridPane.rowIndex="5" />
+            <Label text="Školska godina:" GridPane.rowIndex="6" />
+            <Label text="Ime jednog roditelja:" GridPane.rowIndex="7" />
+            <Label text="E-mail:" GridPane.rowIndex="8" />
+            <Label text="Datum rođenja:" GridPane.rowIndex="9" />
+            <Label text="Mjesto stanovanja:" GridPane.rowIndex="10" />
+            <Label text="Ulica:" GridPane.rowIndex="11" />
+            <Label text="Broj ulice:" GridPane.rowIndex="12" />
+            <Label text="Telefon:" GridPane.rowIndex="13" />
+            <Label text="Broj indeksa:" GridPane.rowIndex="14" />
+            <TextField fx:id="firstNameStudent" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="lastNameStudent" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="jmbgStudent" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="usernameStudent" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="passwordStudent" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="departmentStudent" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="schoolYearStudent" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="parentStudent" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="emailStudent" GridPane.columnIndex="1" GridPane.rowIndex="8">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="placeStudent" GridPane.columnIndex="1" GridPane.rowIndex="10">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="streetStudent" GridPane.columnIndex="1" GridPane.rowIndex="11">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="streetNoStudent" GridPane.columnIndex="1" GridPane.rowIndex="12">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="telephoneStudent" GridPane.columnIndex="1" GridPane.rowIndex="13">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="indexStudent" GridPane.columnIndex="1" GridPane.rowIndex="14">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="dateStudent" GridPane.columnIndex="1" GridPane.rowIndex="9">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </TextField>
+            <Label text="Prosječna ocjena:" GridPane.rowIndex="15" />
+            <TextField fx:id="gpaStudent" GridPane.columnIndex="1" GridPane.rowIndex="15">
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </TextField>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </GridPane>
+      <Button layoutX="579.0" layoutY="531.0" mnemonicParsing="false" onAction="#showAdminMenu" text="Otkaži" />
+      <Button layoutX="503.0" layoutY="531.0" mnemonicParsing="false" onAction="#saveNewStudent" text="Sačuvaj" />
+      <Button layoutX="265.0" layoutY="531.0" mnemonicParsing="false" onAction="#passedExams" text="Unos položenih predmeta" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Label layoutX="65.0" layoutY="163.0" text="Lozinka:" />
+      <Button layoutX="187.0" layoutY="210.0" mnemonicParsing="false" onAction="#checkLogIn" text="Prijavi se" />
+      <TextField fx:id="usernameLogIn" layoutX="144.0" layoutY="113.0" />
+      <PasswordField fx:id="passwordLogIn" layoutX="144.0" layoutY="159.0" />
+      <Label layoutX="46.0" layoutY="117.0" text="Korisničko ime:" />
+      <Text layoutX="125.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dobro došli!" wrappingWidth="101.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="warning" fill="RED" layoutX="154.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Greška! Pokušaj ponovo." visible="false" />
+   </children>
+</AnchorPane>

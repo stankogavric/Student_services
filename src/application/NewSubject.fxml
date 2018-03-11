@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="464.0" prefWidth="691.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.NewSubjectController">
+   <children>
+      <Text layoutX="268.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Podaci o predmetu:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <GridPane layoutX="126.0" layoutY="132.0" prefHeight="200.0" prefWidth="439.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Naziv:">
+               <GridPane.margin>
+                  <Insets left="5.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="Smjer:" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="5.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="Fond časova:" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="5.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="ID profesora:" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="5.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="Školska godina:" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets left="5.0" />
+               </GridPane.margin>
+            </Label>
+            <TextField fx:id="nameSubject" GridPane.columnIndex="1" />
+            <TextField fx:id="departmentSubject" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="weeklySubject" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="professorID" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField fx:id="schoolYearSubject" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+         </children>
+      </GridPane>
+      <Button layoutX="513.0" layoutY="357.0" mnemonicParsing="false" onAction="#showAdminMenu" text="Otkaži" />
+      <Button layoutX="436.0" layoutY="357.0" mnemonicParsing="false" onAction="#saveNewProfessor" text="Sačuvaj" />
+   </children>
+</AnchorPane>

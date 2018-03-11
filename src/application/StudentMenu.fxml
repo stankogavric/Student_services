@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <VBox layoutX="1.0" prefHeight="400.0" prefWidth="400.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#prijaviIspit" prefHeight="35.0" prefWidth="430.0" text="Prijava ispita" />
+            <Button mnemonicParsing="false" onAction="#odjaviIspit" prefHeight="35.0" prefWidth="417.0" text="Odjava ispita" />
+            <Button mnemonicParsing="false" onAction="#passedSubjects" prefHeight="35.0" prefWidth="434.0" text="Prikaz položenih predmeta s prosječnom ocjenom" />
+            <Button mnemonicParsing="false" onAction="#examsEntry" prefHeight="35.0" prefWidth="482.0" text="Prikaz prijavljenih ispita i rezultata ispita" />
+            <Button mnemonicParsing="false" onAction="#exit" prefHeight="35.0" prefWidth="495.0" text="Izlazak iz aplikacije" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
