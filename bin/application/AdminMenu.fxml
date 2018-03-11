@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="400.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#newStudent" prefHeight="35.0" prefWidth="450.0" text="Upis studenata na prvu godinu studija">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#newProfessor" prefHeight="35.0" prefWidth="413.0" text="Upis nastavnika" />
+            <Button mnemonicParsing="false" onAction="#newSubject" prefHeight="35.0" prefWidth="489.0" text="Upis predmeta" />
+            <Button mnemonicParsing="false" onAction="#payments" prefHeight="35.0" prefWidth="491.0" text="Evidencija finansijskih uplata studenata" />
+            <Button mnemonicParsing="false" onAction="#findStudentByIndex" prefHeight="35.0" prefWidth="431.0" text="Pronalaženje studenta po broju indeksa" />
+            <Button mnemonicParsing="false" onAction="#findStudentsByLastName" prefHeight="35.0" prefWidth="464.0" text="Pretraživanje studenata po prezimenu" />
+            <Button mnemonicParsing="false" onAction="#sortStudents" prefHeight="35.0" prefWidth="460.0" text="Pregledanje svih studenata sortiranih po prezimenu" />
+            <Button mnemonicParsing="false" onAction="#exit" prefHeight="35.0" prefWidth="441.0" text="Izlazak iz aplikacije" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="353.0" prefWidth="445.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="101.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Uspiješno ste unijeli profesora.">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="528.0" prefWidth="774.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ExamsEntryForProfessorController">
+   <children>
+      <Text layoutX="288.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pregled prijavljenih ispita">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="text" editable="false" layoutX="14.0" layoutY="38.0" prefHeight="445.0" prefWidth="746.0" />
+      <Button layoutX="617.0" layoutY="489.0" mnemonicParsing="false" onAction="#showProfessorMenu" text="Povratak na glavni meni" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="519.0" prefWidth="756.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PassedSubjectsController">
+   <children>
+      <Text layoutX="180.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prikaz položenih predmeta s prosječnom ocjenom">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="text" editable="false" layoutX="14.0" layoutY="38.0" prefHeight="391.0" prefWidth="724.0" />
+      <Button layoutX="595.0" layoutY="480.0" mnemonicParsing="false" onAction="#showStudentMenu" text="Povratak na glavni meni" />
+      <Label layoutX="14.0" layoutY="444.0" text="Prosječna ocjena:" />
+      <Text fx:id="textGpa" layoutX="122.0" layoutY="457.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="117.0" />
+   </children>
+</AnchorPane>

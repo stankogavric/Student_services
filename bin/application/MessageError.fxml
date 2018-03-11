@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="135.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sva polja moraju biti ispravno popunjena.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="208.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Greška prilikom unosa!">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

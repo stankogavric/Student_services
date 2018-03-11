@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PaymentsController">
+   <children>
+      <Text layoutX="146.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Evidencija finansijskih uplata studenata">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="text" editable="false" layoutX="14.0" layoutY="49.0" prefHeight="301.0" prefWidth="564.0" />
+      <Button layoutX="443.0" layoutY="361.0" mnemonicParsing="false" onAction="#showAdminMenu" text="Povratak na glavni meni" />
+   </children>
+</AnchorPane>
